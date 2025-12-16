@@ -1,5 +1,6 @@
 import React from "react";
-import imageight from "../assets/imgeight.png"; // حطي مسار صورتك هنا
+import imageight from "../assets/imgeight.png"; 
+import imageten from "../assets/imageten.jpeg"; 
 import Skills from "./skills";
 import Projects from "./project";
 import AboutMe from "./aboutme";
@@ -41,7 +42,7 @@ function Home() {
         {/* الصورة */}
         <div>
           <img
-            src={imageight}
+            src={imageten}
             alt="Sumaya Abdullahi Mohamed"
             className="w-64 md:w-80 rounded-2xl shadow-lg mx-auto"
           />

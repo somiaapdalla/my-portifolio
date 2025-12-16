@@ -1,18 +1,21 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb } from "react-icons/si";
 
 function Skills() {
   const skills = [
     { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-6xl" /> },
-    { name: "CSS", icon: <FaCss3Alt className="text-blue-600 text-6xl" /> },
-    { name: "JavaScript", icon: <FaJs className="text-yellow-400 text-6xl" /> },
-    { name: "React", icon: <FaReact className="text-blue-400 text-6xl" /> },
-    { name: "Node.js", icon: <FaNodeJs className="text-green-600 text-6xl" /> },
+  { name: "CSS", icon: <FaCss3Alt className="text-blue-600 text-6xl" /> },
+  { name: "JavaScript", icon: <FaJs className="text-yellow-400 text-6xl" /> },
+  { name: "React", icon: <FaReact className="text-blue-400 text-6xl" /> },
+  { name: "Node.js", icon: <FaNodeJs className="text-green-600 text-6xl" /> },
+  { name: "Express.js", icon: <SiExpress className="text-gray-300 text-6xl" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-6xl" /> },
     // أضيفي أي مهارات أخرى بنفس الطريقة
   ];
 
   return (
-    <section id="skills" className="bg-sky-950 py-20 px-6 md:px-20 pb-28 pt-28 ">
-      <h2 className="text-4xl font-bold text-center text-slate-900 mb-12 text-white">My Skills</h2>
+    <section id="skills" className="bg-slate-900 py-20 px-6 md:px-20 pb-28 pt-28 ">
+      <h2 className="text-4xl font-bold text-center mb-12 text-white">My Skills</h2>
 
       <div className="grid gap-10 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-center pb-10">
         {skills.map((skill, index) => (

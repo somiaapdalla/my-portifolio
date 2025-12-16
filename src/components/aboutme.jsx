@@ -1,11 +1,13 @@
 import imageone from "../assets/imgone.jpeg"
+import imageten from "../assets/imageten.jpeg"; 
+
 function AboutMe() {
   return (
     <section className="bg-slate-100 py-20 px-6 md:px-20">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10 pb-28 pt-28">
         
         <img
-          src={imageone}
+          src={imageten}
                     alt="Sumaya Abdullahi Mohamed"
           className="w-64 h-64 rounded-2xl object-cover shadow-lg"
         />
